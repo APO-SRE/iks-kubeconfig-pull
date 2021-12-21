@@ -11,3 +11,7 @@ variable "endpoint" {
   description = "API Endpoint URL"
   default     = "https://www.intersight.com"
 }
+variable "cluster_name" {
+  type = string
+  description = "Name of IKS Cluster."
+}
