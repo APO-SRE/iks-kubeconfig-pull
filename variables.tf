@@ -6,7 +6,7 @@ variable "secretkey" {
   type        = string
   description = "Secret Key or file location"
 }
-variable "endpoint" {
+variable "intersight_endpoint" {
   type        = string
   description = "API Endpoint URL"
   default     = "https://www.intersight.com"
